@@ -1,0 +1,10 @@
+{
+  "version": "0.1.1",
+  "channel": "canary",
+  "sha256": "28b12a404f15467d170e092a42bd22fe3356a9e73e54b216ea6ddd3a48e48c17",
+  "artifactUrl": "https://raw.githubusercontent.com/SilasVale/summrise-canary/main/summrise-device.exe",
+  "minVersion": "0.1.0",
+  "issuedAtMs": 1792643908961,
+  "artifactSignature": "143a7ef947cd48b5f7aae3667d97aa477d4724120f2271549fafb3a531b0c876972974b5559ac55d5d781cca1e1096b3d51c62d990c82cbd9cc113efcf32ef06",
+  "signature": "d78e9d705eb3010dfbaa2c19aba1ea26340c6cdf82f3e11311d8054cfb42e5cda34ad962cba96aec1a56c50bc1448228b5af7e0386db12f9b91bb3b8be530b05"
+}
