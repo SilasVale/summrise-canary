@@ -6,8 +6,8 @@ This repository serves two things and nothing else:
 - **`summrise-device-<version>.exe` + `release-<version>.json`** — the app binary and the signed
   release document the device's updater consumes.
 
-**The current build is `0.3.8`.** Everything older is history; use the newest file unless you are
-reproducing a specific incident.
+**The current build is `0.3.8`.** Everything older lives in `archive/` — kept so an incident can be
+reproduced against the exact build that caused it, not as something to install.
 
 ## Installing
 
@@ -64,3 +64,10 @@ the artifact's SHA-256, the channel and the revocation list.
 
 No signing keys, no operator token, no grant key. The installer and the binaries embed only the
 **public** halves; a build that cannot verify its own seed refuses to install, by design.
+
+## Archive
+
+`archive/` holds every earlier build this mirror published. The names carry the history: `-18080` and
+`-18090` were the coexistence ports before the port became a build input, and `-ci-` marks the builds
+the GitHub workflow produced before the local publish script existed. They are not maintained and not
+advised for a new install.
