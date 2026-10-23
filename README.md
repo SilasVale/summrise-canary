@@ -6,7 +6,7 @@ This repository serves two things and nothing else:
 - **`summrise-device-<version>.exe` + `release-<version>.json`** — the app binary and the signed
   release document the device's updater consumes.
 
-**The current build is `0.3.10`.** Everything older lives in `archive/` — kept so an incident can be
+**The current build is `0.3.12`.** Everything older lives in `archive/` — kept so an incident can be
 reproduced against the exact build that caused it, not as something to install.
 
 ## Installing
@@ -16,10 +16,10 @@ Add/Remove Programs, and can run silently.
 
 ```bat
 :: interactive
-SummriseSetup-0.3.10.exe
+SummriseSetup-0.3.12.exe
 
 :: silent, into a chosen directory (the /D= must be last and unquoted)
-SummriseSetup-0.3.10.exe /S /D=C:\SummriseInstall
+SummriseSetup-0.3.12.exe /S /D=C:\SummriseInstall
 ```
 
 Defaults: install `%ProgramFiles%\Summrise`, data `%ProgramData%\Summrise`, service `SummriseLaunch`.
@@ -47,7 +47,7 @@ A device updates from the signed document, not from the installer:
 
 ```bat
 :: point it at the document (once), then it checks on its own schedule
-summrise-device.exe --set-update-source https://raw.githubusercontent.com/SilasVale/summrise-canary/main/release-0.3.10.json ^
+summrise-device.exe --set-update-source https://raw.githubusercontent.com/SilasVale/summrise-canary/main/release-0.3.12.json ^
     --channel canary --interval 21600 --allow-plaintext --data C:\ProgramData\Summrise
 ```
 
