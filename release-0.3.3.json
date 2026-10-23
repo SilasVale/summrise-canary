@@ -1,0 +1,10 @@
+{
+  "version": "0.3.3",
+  "channel": "canary",
+  "sha256": "fbd3f470b72afd74db0826821c71dbdb6d7ad7c3d756f8cf6c81da0e6124de15",
+  "artifactUrl": "http://100.85.163.159:18100/summrise-device-0.3.3.exe",
+  "minVersion": "0.1.0",
+  "issuedAtMs": 1792679975255,
+  "artifactSignature": "927d9036741083ff015f307f800622ac0d8cbfd66c4e565b58e8319c33521ed53b076750d8160530d8f799d70fa07c90b1354d930ad52fd318814b8472a22e04",
+  "signature": "a6c1d2def3e71f45393cab2b9d4611b0232a00f7f0cd5af56c71e48d9be7b9581df0c94d7e65123749ee0d3cbd1d4dd428e32c892c94795fcd328fc4908c3b01"
+}
